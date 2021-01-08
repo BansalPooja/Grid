@@ -16,8 +16,10 @@
 </template>
 <script>
 //import {Grid} from 'gridjs-vue';
-import { agGrid } from '@ag-grid-enterprise/core';
-import {SetFilterModule} from '@ag-grid-enterprise/set-filter';
+import { agGrid, LicenseManager } from '@ag-grid-enterprise/core';
+//import {SetFilterModule} from '@ag-grid-enterprise/set-filter';
+
+LicenseManager.setLicenseKey("your license key");
 export default {
   components: {
     Grid

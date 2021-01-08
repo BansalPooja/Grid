@@ -18,7 +18,6 @@
   "license": "ISC",
   "dependencies": {
     "@ag-grid-enterprise/core": "^25.0.0",
-    "@ag-grid-enterprise/set-filter": "^25.0.0",
     "core-js": "^3.6.5",
     "gridjs": "^3.2.1",
     "gridjs-vue": "^3.2.1",
